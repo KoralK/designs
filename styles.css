@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.header {
+    background-color: #6A1B9A;
+    padding: 50px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.stage {
+    background-color: #3E2723;
+    height: 400px;
+    position: relative;
+}
+
+.lights {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 60%;
+    background: radial-gradient(circle, #FFEB3B, #FFC107, #FF9800);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
